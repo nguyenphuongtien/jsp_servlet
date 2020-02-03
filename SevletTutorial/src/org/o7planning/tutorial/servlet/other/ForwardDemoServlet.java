@@ -1,4 +1,4 @@
-package org.o7planning.tutorial.servlet;
+package org.o7planning.tutorial.servlet.other;
  
 import java.io.IOException;
  
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.o7planning.tutorial.beans.Constants;
  
 @WebServlet("/other/forwardDemo")
-public class ServletForward extends HttpServlet {
+public class ForwardDemoServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
  
     // Request:
